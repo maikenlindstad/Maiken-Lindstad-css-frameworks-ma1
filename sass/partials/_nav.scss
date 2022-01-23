@@ -1,0 +1,26 @@
+.navbar-brand {
+  color: getColour(headingcolor) !important;
+  font-size: 36px !important;
+}
+
+.navbar {
+  background-color: getColour(plain);
+  text-transform: uppercase;
+  box-shadow: 3px 8px 50px rgba(0, 0, 0, 0.137);
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.nav-link {
+  color: getColour(grey) !important;
+}
+
+.active > .nav-link {
+  color: getColour(highlight) !important;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-collapse {
+    padding-bottom: 45px;
+  }
+}

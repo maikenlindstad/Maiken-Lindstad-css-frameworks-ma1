@@ -1,0 +1,133 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: #463f3a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  font-size: 34px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.box {
+  margin: 10px;
+}
+
+.plain {
+  background-color: #f4f3ee;
+}
+
+.highlight {
+  background-color: #c32c72;
+  border: solid white 3px;
+}
+
+.other {
+  background: white;
+  border: solid #c32c72 3px;
+}
+
+.plain,
+.highlight,
+.other {
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.226) 0px 6px 12px;
+          box-shadow: rgba(0, 0, 0, 0.226) 0px 6px 12px;
+}
+
+footer {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f4f3ee;
+  font-size: 12px;
+  padding: 12px 75px;
+}
+
+footer,
+footer a {
+  color: #8d8d8d;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.row {
+  margin: 65px;
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row {
+    margin: 28px !important;
+  }
+}
+
+.navbar-brand {
+  color: #463f3a !important;
+  font-size: 36px !important;
+}
+
+.navbar {
+  background-color: #f4f3ee;
+  text-transform: uppercase;
+  -webkit-box-shadow: 3px 8px 50px rgba(0, 0, 0, 0.137);
+          box-shadow: 3px 8px 50px rgba(0, 0, 0, 0.137);
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.nav-link {
+  color: #8d8d8d !important;
+}
+
+.active > .nav-link {
+  color: #c32c72 !important;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-collapse {
+    padding-bottom: 45px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
