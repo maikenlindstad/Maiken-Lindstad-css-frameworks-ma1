@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--background-color) !important;
+  color: var(--heading-color) !important;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+.container {
+  margin-top: 120px;
+  text-align: center;
+}
+.col {
+  border: solid black 1px;
+}
+
+footer {
+  display: flex !important;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: var(--nav-background-color);
+  font-size: 12px;
+  padding: 12px 75px;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
